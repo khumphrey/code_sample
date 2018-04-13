@@ -1,7 +1,6 @@
 {
-  "name": "boilermaker",
+  "name": "react_boiler_plate",
   "version": "1.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
   "engines": {
     "node": ">= 7.0.0"
   },
@@ -19,7 +18,6 @@
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore client",
     "test": "NODE_ENV='test' mocha ./server/**/*.spec.js ./server/**/**/*.spec.js ./client/**/*.spec.js --require @babel/polyfill --require @babel/register"
   },
-  "author": "Fullstack Academy of Code",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.15.3",
